@@ -23,6 +23,7 @@ modules:
       - neovim
       - fping
       - gamemode
+      - duperemove
       # - micro
       # - starship
     remove:
