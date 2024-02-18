@@ -19,11 +19,18 @@ modules:
 
   - type: rpm-ostree
     repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora-$(rpm -E %fedora)/kylegospo-gnome-vrr-fedora-$(rpm -E %fedora).repo
     install:
       - neovim
       - fping
       - gamemode
       - duperemove
+      - mutter
+      - mutter-common
+      - gnome-control-center
+      - gnome-control-center-filesystem
+      - xorg-x11-server-Xwayland
+
       # - micro
       # - starship
     remove:
@@ -31,7 +38,11 @@ modules:
       - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
  #     - vim-enhanced # don't actually do this lol
 #      - vim-minimal
-
+      - mutter
+      - mutter-common
+      - gnome-control-center
+      - gnome-control-center-filesystem
+      - xorg-x11-server-Xwayland
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
