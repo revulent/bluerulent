@@ -62,7 +62,6 @@ modules:
       remove:
         # - org.gnome.eog
   - type: fonts
-  fonts:
     nerd-fonts:
       - FiraCode # don't add "Nerd Font" suffix.
       - Hack
