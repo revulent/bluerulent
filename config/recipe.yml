@@ -61,7 +61,7 @@ modules:
         # Installing different branches of the same Flatpak is not supported.
       remove:
         # - org.gnome.eog
-  type: fonts
+  - type: fonts
   fonts:
     nerd-fonts:
       - FiraCode # don't add "Nerd Font" suffix.
