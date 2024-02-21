@@ -70,7 +70,7 @@ modules:
       - Open Sans
   - type: containerfile
     snippets: 
-      - COPY --from=ghcr.io/ublue-os/akmods:main-39 /rpms/ /tmp/rpms
+      - COPY --from=ghcr.io/ublue-os/akmods:main-%OS_VERSION% /rpms/ /tmp/rpms
   - type: akmods
     install:
       - evdi
