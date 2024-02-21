@@ -68,6 +68,9 @@ modules:
     google-fonts:
       - Roboto
       - Open Sans
+  - type: containerfile
+    snippets: 
+      - COPY --from=ghcr.io/ublue-os/akmods:TAG /rpms/ /tmp/rpms
   - type: akmods
     install:
       - evdi
