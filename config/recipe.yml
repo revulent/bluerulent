@@ -26,6 +26,7 @@ modules:
       - gamemode
       - duperemove
       - steam-devices
+      - rustup
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
