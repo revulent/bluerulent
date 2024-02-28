@@ -12,7 +12,8 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 modules:
   - from-file: common.yml
   - type: rpm-ostree
-    repos: - https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-39/dsommers-openvpn3-fedora-39.repo
+    repos: 
+      - https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-%OS_VERSION%/dsommers-openvpn3-fedora-%OS_VERSION%.repo
     install: - openvpn3
 #  - type: containerfile
 #    snippets: 
