@@ -20,6 +20,6 @@ modules:
 #  - type: containerfile
 #    snippets: 
 #      - COPY --from=ghcr.io/ublue-os/akmods:main-39 /rpms/ /tmp/rpms
-#  - type: akmods
-#    install:
-#      - evdi
+  - type: akmods
+    install:
+      - evdi
