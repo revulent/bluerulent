@@ -14,7 +14,8 @@ modules:
   - type: rpm-ostree
     repos: 
       - https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-%OS_VERSION%/dsommers-openvpn3-fedora-%OS_VERSION%.repo
-    install: - openvpn3
+    install: 
+      - openvpn3
 #  - type: containerfile
 #    snippets: 
 #      - COPY --from=ghcr.io/ublue-os/akmods:main-39 /rpms/ /tmp/rpms
