@@ -7,7 +7,7 @@ modules:
           # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    repos: # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    repos: - https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-39/dsommers-openvpn3-fedora-39.repo # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
 #      - https://copr.fedorainfracloud.org/coprs/kylegospo/gnome-vrr/repo/fedora-39/kylegospo-gnome-vrr-fedora-39.repo
     install:
       - neovim
