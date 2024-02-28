@@ -27,6 +27,9 @@ modules:
       - duperemove
       - steam-devices
       - rustup
+      - gcc
+      - gcc-c++
+      - perl
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
