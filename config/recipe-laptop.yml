@@ -11,6 +11,9 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 # you can include multiple instances of the same module
 modules:
   - from-file: common.yml
+  - type: rpm-ostree
+    repos: - https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-39/dsommers-openvpn3-fedora-39.repo
+    install: - openvpn3
   - type: containerfile
     snippets: 
       - COPY --from=ghcr.io/ublue-os/akmods:main-39 /rpms/ /tmp/rpms
