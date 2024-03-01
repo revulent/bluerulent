@@ -19,6 +19,9 @@ modules:
       - gcc
       - gcc-c++
       - perl
+      - pass
+      - gh
+      - age
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
