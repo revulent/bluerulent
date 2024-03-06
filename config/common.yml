@@ -22,6 +22,8 @@ modules:
       - pass
       - gh
       - age
+      - telnet
+      - netcat
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
