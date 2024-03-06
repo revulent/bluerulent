@@ -24,6 +24,7 @@ modules:
       - age
       - telnet
       - netcat
+      - btop
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
