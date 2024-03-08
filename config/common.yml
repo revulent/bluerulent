@@ -25,6 +25,8 @@ modules:
       - telnet
       - netcat
       - btop
+      - black
+      - isort
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
