@@ -37,7 +37,7 @@ modules:
       - avr-libc
       - avrdude
       - clang
-      - dfu-programmer
+      #- dfu-programmer
       - dfu-util
       - kernel-devel
  #     - mutter
