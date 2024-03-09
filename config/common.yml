@@ -26,7 +26,7 @@ modules:
       - netcat
       - btop
       - black
-      - isort
+      - python3-isort
       - arm-none-eabi-binutils-cs
       - arm-none-eabi-gcc-cs
       - arm-none-eabi-gcc-cs-c++
