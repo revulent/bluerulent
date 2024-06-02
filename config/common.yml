@@ -40,6 +40,8 @@ modules:
       #- dfu-programmer
       - dfu-util
       - kernel-devel
+      - zsh
+      - mpv
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
