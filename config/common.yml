@@ -42,7 +42,6 @@ modules:
       - kernel-devel
       - zsh
       - mpv
-      - corectl
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
