@@ -43,6 +43,7 @@ modules:
       - zsh
       - mpv
       - android-tools
+      - mame-tools
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
