@@ -13,8 +13,8 @@ modules:
   - from-file: common.yml
   - type: rpm-ostree
     repos: 
-      #- https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-%OS_VERSION%/dsommers-openvpn3-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/ojab/openvpn3/repo/fedora-%OS_VERSION%/ojab-openvpn3-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/dsommers/openvpn3/repo/fedora-%OS_VERSION%/dsommers-openvpn3-fedora-%OS_VERSION%.repo
+   #   - https://copr.fedorainfracloud.org/coprs/ojab/openvpn3/repo/fedora-%OS_VERSION%/ojab-openvpn3-fedora-%OS_VERSION%.repo
     install: 
       - openvpn3
 #  - type: containerfile
