@@ -45,6 +45,7 @@ modules:
       - android-tools
       - mame-tools
       - yt-dlp
+      - NetworkManager-tui
  #     - mutter
  #     - mutter-common
  #     - gnome-control-center
